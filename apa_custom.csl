@@ -1646,6 +1646,7 @@
     <key macro="date-sort-group"/>
     <key macro="date-bib" sort="ascending"/>
     <key variable="status"/>
+    <key variable="citation-number"/>
   </sort>
   <layout vertical-align="sup" delimiter=",">
     <text variable="citation-number"/>
@@ -1660,6 +1661,7 @@
       <key macro="title"/>
     </sort>
     <layout>
+      <text variable="citation-number" suffix="."/>
       <choose>
         <!-- TODO: Add new item types -->
         <if type="bill legal_case legislation treaty" match="any">
